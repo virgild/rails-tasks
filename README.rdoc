@@ -1,0 +1,15 @@
+= Roundy Tasks
+
+Copyright (c) 2009 Virgil Dimaguila
+
+== rake db:schema:show
+
+This rake task shows the current database schema used by your Rails models.
+
+To install, put db.rake in your lib/tasks.
+
+Additional options:
+
+  rake db:schema:show only=my_model,another_model
+
+This will show only the tables for the MyModel and AnotherModel model.
